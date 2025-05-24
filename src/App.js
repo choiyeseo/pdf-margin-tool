@@ -1,4 +1,3 @@
-// 이게 있어야 함
 import PdfMarginTool from './PdfMarginTool'
 
 function App() {
