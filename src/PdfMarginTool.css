@@ -1,48 +1,36 @@
 /* 기본 설정 */
 :root {
-  /* 라이트 모드 변수 */
   --bg-color-light: #f0f2f5;
   --text-color-light: #333;
   --card-bg-light: #ffffff;
   --card-shadow-light: rgba(0, 0, 0, 0.1);
-
-  --primary-color-light: #03AED2; /* 요청된 파랑 */
+  --primary-color-light: #03AED2;
   --primary-dark-light: #0294B1;
-  --secondary-color-light: #68D2E8; /* 요청된 하늘색 */
+  --secondary-color-light: #68D2E8;
   --border-color-light: #e0e0e0;
-
   --input-bg-light: #fdfdfd;
   --input-border-light: #ccc;
-
-  --accent-color-light: #FDDE55; /* 요청된 노랑 */
+  --accent-color-light: #FDDE55;
   --accent-dark-light: #F2C700;
-
-  --hover-bg-light: #FEEFAD; /* 요청된 연한 노랑 */
+  --hover-bg-light: #FEEFAD;
   --light-gray: #f5f5f5;
   --medium-gray: #a0a0a0;
   --dark-gray: #666;
 }
 
-/* 다크 모드 변수 */
 .dark-mode {
-  --bg-color-dark: #121212; /* 전체 body 배경색 - 이전 요청대로 유지 */
+  --bg-color-dark: #121212;
   --text-color-dark: #eee;
-
-  /* pdf-tool (body-container) 관련 색상 */
-  --pdf-tool-bg-dark: #2A2A2A; /* PDF Margin Adder 컨테이너 배경색 */
-  --pdf-tool-shadow-dark: rgba(0, 0, 0, 0.6); /* 컨테이너 그림자 */
-
-  --primary-color-dark: #4FB0E2; /* 다크 모드에 어울리는 파랑 */
+  --pdf-tool-bg-dark: #2A2A2A;
+  --pdf-tool-shadow-dark: rgba(0, 0, 0, 0.6);
+  --primary-color-dark: #4FB0E2;
   --primary-dark-dark: #3A8CCF;
   --secondary-color-dark: #777;
   --border-color-dark: #444;
-
   --input-bg-dark: #3A3A3A;
   --input-border-dark: #666;
-
-  --accent-color-dark: #7ACF6D; /* 다크 모드에 어울리는 녹색 계열 */
+  --accent-color-dark: #7ACF6D;
   --accent-dark-dark: #5CA04F;
-
   --hover-bg-dark: #3B3B3B;
   --light-gray-dark: #3A3A3A;
   --medium-gray-dark: #6A6A6A;
@@ -51,7 +39,7 @@
 
 body {
   font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', sans-serif;
-  background-color: var(--bg-color-light); /* body 자체 배경색 */
+  background-color: var(--bg-color-light);
   color: var(--text-color-light);
   margin: 0;
   padding: 0;
@@ -63,12 +51,12 @@ body {
 }
 
 body.dark-mode {
-  background-color: var(--bg-color-dark); /* 다크 모드일 때 body 배경색 */
+  background-color: var(--bg-color-dark);
   color: var(--text-color-dark);
 }
 
 .pdf-tool {
-  background-color: var(--card-bg-light); /* 라이트 모드 컨테이너 배경색 */
+  background-color: var(--card-bg-light);
   border-radius: 12px;
   box-shadow: 0 10px 30px var(--card-shadow-light);
   padding: 30px;
@@ -81,11 +69,10 @@ body.dark-mode {
 }
 
 .dark-mode .pdf-tool {
-  background-color: var(--pdf-tool-bg-dark); /* 다크 모드일 때 컨테이너 배경색 */
-  box-shadow: 0 10px 30px var(--pdf-tool-shadow-dark); /* 다크 모드 컨테이너 그림자 */
+  background-color: var(--pdf-tool-bg-dark);
+  box-shadow: 0 10px 30px var(--pdf-tool-shadow-dark);
 }
 
-/* 다크 모드 토글 버튼 */
 .dark-toggle {
   position: absolute;
   top: 20px;
@@ -111,7 +98,7 @@ body.dark-mode {
 .dark-mode .dark-toggle {
   border-color: var(--border-color-dark);
   color: var(--text-color-dark);
-  background-color: var(--light-gray-dark); /* 다크 모드 버튼 배경색 */
+  background-color: var(--light-gray-dark);
 }
 
 .dark-mode .dark-toggle:hover {
@@ -119,7 +106,6 @@ body.dark-mode {
   color: var(--text-color-dark);
 }
 
-/* 제목 */
 .title {
   text-align: center;
   color: var(--primary-color-light);
@@ -133,7 +119,6 @@ body.dark-mode {
   color: var(--primary-color-dark);
 }
 
-/* 업로드 영역 */
 .upload-area {
   border: 2px dashed var(--medium-gray);
   border-radius: 10px;
@@ -213,7 +198,6 @@ body.dark-mode {
   100% { transform: scale(1.02); opacity: 0.9; }
 }
 
-/* 마진 옵션 및 타입 선택 */
 .margin-label {
   display: block;
   font-weight: 600;
@@ -295,7 +279,6 @@ body.dark-mode {
   box-shadow: 0 4px 10px rgba(79, 176, 226, 0.3);
 }
 
-/* 라디오 버튼 그룹 */
 .margin-type-options label,
 .page-range-options label {
   display: flex;
@@ -354,7 +337,6 @@ body.dark-mode {
   box-shadow: 0 0 5px rgba(79, 176, 226, 0.5);
 }
 
-/* 액션 버튼 */
 .action-btn {
   background-color: var(--accent-color-light);
   color: white;
@@ -372,7 +354,7 @@ body.dark-mode {
 
 .dark-mode .action-btn {
   background-color: var(--accent-color-dark);
-  color: #222; /* 다크 모드 액센트 버튼 텍스트 색상 조정 */
+  color: #222;
   box-shadow: 0 5px 15px rgba(122, 207, 109, 0.3);
 }
 
@@ -400,7 +382,6 @@ body.dark-mode {
   background-color: var(--secondary-color-dark);
 }
 
-/* 진행률 표시기 */
 .processing-indicator {
   display: flex;
   align-items: center;
@@ -427,7 +408,6 @@ body.dark-mode {
   100% { transform: rotate(360deg); }
 }
 
-/* 미리보기 컨테이너 */
 .preview-container {
   margin-top: 30px;
   border: 1px solid var(--border-color-light);
@@ -444,7 +424,7 @@ body.dark-mode {
 
 .dark-mode .preview-container {
   border-color: var(--border-color-dark);
-  background-color: var(--pdf-tool-bg-dark); /* 다크 모드 컨테이너 배경색과 동일하게 */
+  background-color: var(--pdf-tool-bg-dark);
   box-shadow: 0 5px 20px var(--pdf-tool-shadow-dark);
 }
 
@@ -464,6 +444,50 @@ body.dark-mode {
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+.preview-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.preview-navigation button {
+  background-color: var(--primary-color-light);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.dark-mode .preview-navigation button {
+  background-color: var(--primary-color-dark);
+}
+
+.preview-navigation button:hover:not(:disabled) {
+  background-color: var(--primary-dark-light);
+  transform: translateY(-2px);
+}
+
+.dark-mode .preview-navigation button:hover:not(:disabled) {
+  background-color: var(--primary-dark-dark);
+}
+
+.preview-navigation button:disabled {
+  background-color: var(--secondary-color-light);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.dark-mode .preview-navigation button:disabled {
+  background-color: var(--secondary-color-dark);
 }
 
 .download-btn {
@@ -497,7 +521,6 @@ body.dark-mode {
   box-shadow: 0 5px 15px rgba(79, 176, 226, 0.4);
 }
 
-/* 히스토리 컨테이너 */
 .history-container {
   margin-top: 30px;
   background-color: var(--light-gray);
@@ -602,7 +625,6 @@ body.dark-mode {
   background-color: #999;
 }
 
-/* 푸터 저작권 표시 */
 .footer {
   text-align: center;
   margin-top: 40px;
@@ -637,9 +659,6 @@ body.dark-mode {
   color: var(--primary-dark-dark);
 }
 
-/* --- 반응형 디자인 --- */
-
-/* 태블릿 (768px 이하) */
 @media (max-width: 768px) {
   .pdf-tool {
     padding: 25px;
@@ -749,7 +768,6 @@ body.dark-mode {
   }
 }
 
-/* 모바일 (640px 이하) */
 @media (max-width: 640px) {
   .pdf-tool {
     padding: 20px;
@@ -839,7 +857,6 @@ body.dark-mode {
   }
 }
 
-/* 모바일 (480px 이하) */
 @media (max-width: 480px) {
   .pdf-tool {
     padding: 15px;
