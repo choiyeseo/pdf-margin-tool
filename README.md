@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# 🚀 [PDF Margin Adder 바로가기](https://choiyeseo.github.io/pdf-margin-tool/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Preview Screenshot](public/preview.png)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📘 PDF Margin Adder?
 
-### `npm start`
+PDF 문서에 원하는 위치에 여백을 추가해서 가독성과 인쇄 편의성을 높일 수 있는 **클라이언트 기반 웹 도구**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 💡 주요 기능
 
-### `npm test`
+- **여백 위치/크기 설정**  
+  → 왼쪽 / 오른쪽 / 양쪽 선택  
+  → 100px ~ 3000px 간격 제공
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **페이지 범위 지정**  
+  → 전체 / 홀수 / 짝수 / 사용자 지정 (예: `1-5, 8`)
 
-### `npm run build`
+- **완전한 보안**  
+  → 모든 PDF 처리는 브라우저에서 실행됨 (서버 전송 없음)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 💻 기술 스택
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React 19**
+- **pdf-lib**
+- **HTML / CSS**
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🔗 배포 정보
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **배포 주소**: [https://choiyeseo.github.io/pdf-margin-tool](https://choiyeseo.github.io/pdf-margin-tool)
+- **배포 방식**: GitHub Pages (`gh-pages` 사용)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📄 라이선스
+비상업적 목적에 한하여 자유롭게 사용할 수 있습니다.
