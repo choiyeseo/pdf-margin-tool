@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pdf-margin-tool/static/css/main.05c2b858.css",
+    "main.js": "/pdf-margin-tool/static/js/main.e96010ba.js",
+    "index.html": "/pdf-margin-tool/index.html",
+    "main.05c2b858.css.map": "/pdf-margin-tool/static/css/main.05c2b858.css.map",
+    "main.e96010ba.js.map": "/pdf-margin-tool/static/js/main.e96010ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05c2b858.css",
+    "static/js/main.e96010ba.js"
+  ]
+}
