@@ -1,4 +1,4 @@
-### 🚀 [**PDF Margin Adder 바로가기**](https://choiyeseo.github.io/pdf-margin-tool/)
+### 🔗 [**PDF Margin Adder 바로가기**](https://choiyeseo.github.io/pdf-margin-tool/)
 
 ![Preview Screenshot](public/preview.png)
 
@@ -6,8 +6,8 @@
 
 ## 📄 PDF Margin Adder
 
-PDF에 여백을 추가해주는 웹 도구입니다.
-비상업적 목적에 한하여 자유롭게 사용할 수 있습니다.
+PDF에 여백을 추가해주는 웹 도구입니다.  
+비상업적 목적에 한하여 자유롭게 사용할 수 있습니다.  
 ---
 
 ## 💡 주요 기능
